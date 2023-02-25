@@ -28,7 +28,12 @@ Using [this guide](https://systemweakness.com/how-to-catch-a-reverse-shell-over-
 
 Then, I use Burp Suite's Hackvertor extension to URL-encode the payload before executing it.
 
-![image](https://user-images.githubusercontent.com/45502375/221382242-a7ff1b45-a102-45b7-9da8-17c8226d68b9.png)
+![image](https://user-images.githubusercontent.com/45502375/221382329-fd5ab610-6e43-4182-8719-d6582392c0a5.png)
 
 After which, I add the final payload to the request and successfully gain a reverse shell.
 
+![image](https://user-images.githubusercontent.com/45502375/221382347-3b888ca0-3efc-4531-b754-94ba07c163d6.png)
+
+From there, I traverse the directory and ultimately find the flag.
+
+![Untitled-1](https://user-images.githubusercontent.com/45502375/221382579-d99c735a-3e95-47ec-bb48-697a9cfaaf8b.png)
