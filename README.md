@@ -22,7 +22,8 @@ Testing for RCE, I append ```;id``` to the value assigned to the variable ```com
 
 The next step I take is to open a reverse shell that can be accessed externally.
 
-Using [this guide](https://systemweakness.com/how-to-catch-a-reverse-shell-over-the-internet-66d1be5f7bb9), I open a Netcat listener and an Ngrok server redirecting external traffic to it. I also generate a reverse bash payload using Msfvenom to be executed on the web server.
+Using [this guide](https://systemweakness.com/how-to-catch-a-reverse-shell-over-the-internet-66d1be5f7bb9), I open a Netcat listener and an Ngrok server redirecting external traffic to it.
+I also generate a reverse bash payload using Msfvenom to be executed on the web server.
 
 ![image](https://user-images.githubusercontent.com/45502375/221382300-552c6217-bbf5-4abf-b3a6-dc5f84e03737.png)
 
